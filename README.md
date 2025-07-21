@@ -5,6 +5,12 @@ Machine Monitoring API
 2. Run 'dotnet run' from root folder
 3. Swagger UI available at 'http://localhost:5199/swagger/index.html'
 
+### Technology Stack
+* **Framework:** ASP.NET Core 8.0 Web API
+* **Language:** C#
+* **Package Management:** NuGet
+* **API Documentation:** Swashbuckle (Swagger/OpenAPI)
+
 ## Endpoints
 - 'POST /api/machines' – Register a machine
 - 'POST /api/machines/{id}/status' – Log status
